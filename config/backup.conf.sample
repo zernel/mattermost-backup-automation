@@ -1,0 +1,7 @@
+DB_CONNECTION_STRING="postgres://username:password@host:5432/mattermost?sslmode=disable"
+STORAGE_OBJECT_KEY="mattermost-backup-$(date +%Y-%m-%d).sql"
+STORAGE_BUCKET="your-backup-bucket-name"
+STORAGE_ACCESS_KEY="YOUR_ACCESS_KEY"
+STORAGE_SECRET_KEY="YOUR_SECRET_KEY"
+STORAGE_REGION="your-region"
+MATTERMOST_WEBHOOK_URL="https://your-mattermost-webhook-url"
